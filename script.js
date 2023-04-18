@@ -2,6 +2,10 @@ let time;
 let name;
 let  yourName;
 let password;
+let number;
+let a;
+let b;
+let c;
 time = prompt("Enter current time:");
 if (time > 17) {
     alert("Добрий вечір");
@@ -31,3 +35,14 @@ if (yourName  ==  "ivan" && password == "333ssss" || password == "666gibs"
 else {
     alert("Користувач не знайдений");
 }
+
+for (let i = 0; i < 1; i++) {
+    a = prompt ("Enter random number");
+    b = prompt ("Enter random number");
+    c = prompt ("Enter random number");
+    alert(Math.max(a,b,c));
+}
+
+
+
+
